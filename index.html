@@ -9,13 +9,18 @@
 </head>
 
 <body>
-    <h1>To do list</h1>
-    <form action='' id='form'>
-        <input type='text' id='input' />
-        <button id='add'>+</button>
-    </form>
-    <div id='toDoFinal'></div>
-
+    <div class='darkMode'>
+        <button id='darkModeButton' onclick="darkmode()">Dark mode</button>
+    </div>
+    <div class='list'>
+        <h1>To do list</h1>
+        <form action='' id='form'>
+            <input type='text' id='input'/>
+            <button id='add'>+</button>
+        </form>
+        <div id='toDoFinal'></div>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 

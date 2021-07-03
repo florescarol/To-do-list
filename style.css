@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    display: inline-block;
+    border-bottom: solid 4px;
+}
+
+button {
+    background-color: #f5f5f5;
+    border: solid black 2px;
+    padding: 8px;
+}
+
+.darkMode {
+    text-align: right;
+}
+
+#darkModeButton {
+    background-color: #393E46;
+    color: #f5f5f5;
+    font-weight: bolder;
+}
+
+.list{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+input {
+    width: 400px;
+    border: solid black 2px;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #f5f5f5;
+}
+
+#add {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+    padding: 8px;
+    border: solid black 1px;
+    margin: 5px;
+}
+
+.dark-mode {
+    color: #f5f5f5;
+    background-color: #393E46;
+}
